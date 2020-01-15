@@ -1,5 +1,14 @@
 ## thinkphp6 任意文件写入
 
+# 环境
+
+`composer create-project topthink/think tp60`
+
+将 tp60/composer.json 文件的 "topthink/framework": "^6.0.0" 改成 6.0.0 版本，并执行如下命令。
+
+`composer update`
+
+`./think run --host=0.0.0.0 --port=8000`
 
 # 前提
 `app/middleware.php`  开启session功能
